@@ -1,0 +1,37 @@
+
+body {
+    background-color: rgb(250, 226, 175);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    width: 110px;
+    align-items: center;
+    float: inline-end;
+}
+button {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100px;
+    padding: 10px;
+    padding-top: 20px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 10px;
+    background-color: rgba(255, 250, 117, 0.527);
+    border-style:double;
+    justify-content: center;
+
+}
+button:hover {
+    background-color: rgb(223, 173, 20);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 10px;
+}
+button:focus{
+    background-color: rgb(202, 153, 4);
+    color: white;
+}
+hr {
+    border-color: brown;
+}
